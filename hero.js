@@ -1,6 +1,6 @@
 // Cursor-tracking hero: scrubs a 240-frame horizontal sprite sheet with eased interpolation.
 (function () {
-  var SPRITE = 'assets/sprite-sheet.jpg';
+  var SPRITE = 'sprite-sheet.jpg';
   var CW = 224, CH = 398;               // size of one frame inside the sprite sheet
 
   // Frame numbers ordered by head direction: far left -> idle (frame 0) -> far right.
